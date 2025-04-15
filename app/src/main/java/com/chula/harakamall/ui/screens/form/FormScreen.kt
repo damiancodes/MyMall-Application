@@ -58,7 +58,7 @@ fun FormScreen(navController: NavController){
         verticalArrangement = Arrangement.Center
     ){
         Image(
-            painter = painterResource(R.drawable.img),
+            painter = painterResource(R.drawable.appsss),
             contentDescription = "",
             modifier = Modifier.size(200.dp)
         )

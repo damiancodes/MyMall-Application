@@ -3,7 +3,9 @@ package com.chula.harakamall.ui.screens.home
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
@@ -34,7 +36,7 @@ fun HomeScreen(navController: NavController){
     ){
 
         Text(
-            text = "HarakaMall",
+            text = "Safari Mall ",
             fontSize = 30.sp,
             color = Color.Magenta,
 
@@ -59,6 +61,8 @@ fun HomeScreen(navController: NavController){
             fontSize = 15.sp,
             fontWeight = FontWeight.Bold
         )
+
+        Spacer(modifier = Modifier.height(20.dp))
 
         Button(onClick = {
             navController.navigate(ROUT_START)

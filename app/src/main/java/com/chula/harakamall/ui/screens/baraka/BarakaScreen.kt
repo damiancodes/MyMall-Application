@@ -88,7 +88,7 @@ fun BarakaScreen(navController: NavController){
         //BottomBar
         bottomBar = {
             NavigationBar(
-                containerColor = neworange
+                containerColor = green
             ){
                 NavigationBarItem(
                     icon = { Icon(Icons.Default.Home, contentDescription = "Home") },
@@ -187,7 +187,7 @@ fun BarakaScreen(navController: NavController){
                                     verticalArrangement = Arrangement.Center
                                 ) {
                                     Image(
-                                        painter = painterResource(R.drawable.gra),
+                                        painter = painterResource(R.drawable.cross),
                                         contentDescription = "home",
                                         modifier = Modifier.size(80.dp)
                                     )
@@ -222,7 +222,7 @@ fun BarakaScreen(navController: NavController){
                                     verticalArrangement = Arrangement.Center
                                 ) {
                                     Image(
-                                        painter = painterResource(R.drawable.gra1),
+                                        painter = painterResource(R.drawable.appsss),
                                         contentDescription = "",
                                         modifier = Modifier.size(80.dp),
 

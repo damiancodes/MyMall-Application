@@ -30,6 +30,7 @@ import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
 import com.chula.harakamall.R
 import com.chula.harakamall.navigation.ROUT_DASHBOARD
+import com.chula.harakamall.navigation.ROUT_FORM
 import com.chula.harakamall.navigation.ROUT_ITEM
 import com.chula.harakamall.ui.theme.neworange
 
@@ -44,7 +45,7 @@ fun StartScreen(navController: NavController){
     ){
 
         Text(
-            text = "HarakaMall",
+            text = "MySasaMall",
             fontSize = 20.sp
         )
 

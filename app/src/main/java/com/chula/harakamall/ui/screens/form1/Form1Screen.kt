@@ -83,7 +83,7 @@ fun Form1Screen(navController: NavController){
 
 
                         Image(
-                            painter = painterResource(R.drawable.com),
+                            painter = painterResource(R.drawable.deliverapp),
                             contentDescription = "",
                             modifier = Modifier.width(50.dp).height(30.dp),
                             contentScale = ContentScale.FillWidth,
@@ -120,7 +120,7 @@ fun Form1Screen(navController: NavController){
                 ){
 
                 Image(
-                    painter = painterResource(R.drawable.shopping),
+                    painter = painterResource(R.drawable.ecommerce),
                     contentDescription = "home",
                     modifier = Modifier
                         .width(300.dp)
